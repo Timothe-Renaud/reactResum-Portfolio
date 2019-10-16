@@ -1,12 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Container, Row, Col } from 'reactstrap';
+import Profile from './Components/Profile';
+import CustomTabPane from './Components/CustomTabPane'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import "./styles.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+class App extends React.Component {
+  render() {
+    return (
+      <Container fluid>
+      <Row>
+          <Col lg={3}><Profile /></Col>
+          <Col lg={9}><CustomTabPane /></Col>
+      </Row>
+      </Container>
+    );
+  }
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
