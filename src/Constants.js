@@ -1,29 +1,38 @@
 export const ProgrammingSkills = [
-  "something",
-  "Production de Documentations",
-  "Méthodes Agiles",
-  "Certifier ANSSI",
-  "TOEIC - anglais B2",
-  "Responsable SSI",
-  "Djay support hybride et vynils ",
-  "Aventurier"
+  "C",
+  ".net",
+  "C++",
+  "C#",
+  "Android",
+  "JavaScript",
+  "PHP",
+  "Ajax",
+  "TypeScript",
+  "React.js",
+  "Angular.js",
+  "node.js",
+  "Python",
+  "Dart",
+  "Twig",
+  "PowerShell"
 ];
 
 export const SoftSkills = [
   "Permits B",
   "Production de Documentations",
   "Méthodes Agiles",
-  "Certifier ANSSI",
-  "TOEIC - anglais B2",
+  "Certifié ANSSI",
+  "Communication",
+  "Curieux",
+  "TOEIC - B2",
   "Responsable SSI",
-  "Djay support hybride et vynils ",
+  "Facteur de bonne humeur",
   "Aventurier"
 ];
 
-export const MarkUpSkills= []
+export const MarkUpSkills = [];
 
 export const Frameworks = [
-  { language: ".net", frameworks: "entity" },
   {
     language: "Javascript",
     frameworks: "React, Angular, Node, Vue."
@@ -40,16 +49,21 @@ export const TestFrameworks = [
     language: "PHP",
     frameworks: "Behat, PHPUnit."
   },
-  { language: "Scala", frameworks: "Scalatest, Akka TestKit." }
+  {
+    language: "Scala",
+    frameworks: "Scalatest, Akka TestKit."
+  }
 ];
 
-export const Databases = ["MongoDB", "MySQL", "FireBase"];
+export const Databases = ["MongoDB", "MySQL", "FireBase", "SqlServeur"];
+/* ORM */
 export const Caches = ["Doctrine", "Entity"];
 
 export const Tools = ["Git", "GitLab", "GitHub", "NPM", "Composer", "Flutter"];
 
 export const IDE = [
-  "VSCode",
+  "VS - Code",
+  "VS - Studio",
   "Android studio",
   "Sublime Text",
   "Atom",
@@ -60,17 +74,25 @@ export const IDE = [
 
 export const Tech = [
   "Docker",
+  "Oracle Serveur",
   "Apache",
   "Nginx",
   "FireBase",
   "Netlify",
-  "Trello"
+  "Trello",
+  "BitBucket",
+  "Active Directory",
+  "HyperV",
+  "Linux",
+  "GPO",
+  "Administrations et droits"
 ];
 
 export const Name = "Langlois - Teston Timothé - Renaud";
-export const TitrePro = "Technicien au Centre d' Analyse Technico-Operationnel de defence";
+export const TitrePro =
+  "Technicien au Centre d'Analyse Téchnico-Opérationnel de défence ( CATOD )";
 export const EmailAddress = "timothe.langlois.teston@gmail.com";
-export const Home = "IDF, Arcueil (94)";
+export const Home = "IDF, Arcueil (94), Val-de-MArne";
 
 //Experience pro
 export const ExperienceObject = [
@@ -210,7 +232,8 @@ export const AboutLinksObj = [
   },
   {
     name: "LinkedIn",
-    profileLink: "https://www.linkedin.com/in/timothe-renaud-langlois-teston-9329b9151/",
+    profileLink:
+      "https://www.linkedin.com/in/timothe-renaud-langlois-teston-9329b9151/",
     icon:
       "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/GbB5-LK.ico"
   },
@@ -219,6 +242,12 @@ export const AboutLinksObj = [
     profileLink: "https://github.com/Timothe-Renaud",
     icon:
       "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/LuQy-GH.ico"
+  },
+  {
+    name: "Pearltrees",
+    profileLink: "https://www.pearltrees.com/",
+    icon:
+      "http://cdn-metalogo.pearltrees.com/d1/fb/d1fb0cca0bc3a8b865c277f6c3d6b007-pearlsquare.jpg?v=2019-16-09"
   }
 ];
 

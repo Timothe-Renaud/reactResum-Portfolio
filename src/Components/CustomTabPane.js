@@ -46,7 +46,7 @@ export default class CustomTabPane extends React.Component {
                 this.toggle("1");
               }}
             >
-              Compétences
+              <u>Compétences</u>
             </NavLink>
           </NavItem>
           <NavItem>
@@ -56,7 +56,7 @@ export default class CustomTabPane extends React.Component {
                 this.toggle("2");
               }}
             >
-              Experience professionnel
+              <u>Experience professionnel</u>
             </NavLink>
           </NavItem>
           <NavItem>
@@ -66,7 +66,7 @@ export default class CustomTabPane extends React.Component {
                 this.toggle("3");
               }}
             >
-              Scolarité
+              <u>Scolarité</u>
             </NavLink>
           </NavItem>
           <NavItem>
@@ -76,7 +76,7 @@ export default class CustomTabPane extends React.Component {
                 this.toggle("4");
               }}
             >
-              CV et Diplome
+              <u>CV et Diplome</u>
             </NavLink>
           </NavItem>
           <NavItem>
@@ -86,7 +86,7 @@ export default class CustomTabPane extends React.Component {
                 this.toggle("6");
               }}
             >
-              Mes Projets
+              <u>Mes Projets</u>
             </NavLink>
           </NavItem>
           <NavItem>
@@ -96,7 +96,7 @@ export default class CustomTabPane extends React.Component {
                 this.toggle("7");
               }}
             >
-              à propos de moi
+              <u>à propos de moi</u>
             </NavLink>
           </NavItem>
         </Nav>

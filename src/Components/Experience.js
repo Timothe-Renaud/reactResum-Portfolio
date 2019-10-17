@@ -1,19 +1,22 @@
 import React from "react";
-import { Row, Col } from 'reactstrap';
-import * as Constants from './../Constants'
+import { Row, Col } from "reactstrap";
+import * as Constants from "./../Constants";
 
 export default class Experience extends React.Component {
-
   renderExperienceProf(obj) {
     return (
       <Row key={obj.date}>
         <Col>
           <Row>
             <Col>
-              <h3>{obj.company}</h3>
+              <h3>
+                <u>{obj.company}</u>
+              </h3>
             </Col>
             <Col>
-              <h4> {obj.role} </h4>
+              <h4>
+                <i> {obj.role}</i>{" "}
+              </h4>
             </Col>
           </Row>
           <Row>
@@ -23,19 +26,16 @@ export default class Experience extends React.Component {
                   <img
                     src={obj.imageSrc}
                     alt="companyImage"
-                    style={
-                      {
-                        width: '30%',
-                        marginTop: '2%',
-                        marginBottom: '2%'
-                      }
-                    } />
+                    style={{
+                      width: "30%",
+                      marginTop: "2%",
+                      marginBottom: "2%"
+                    }}
+                  />
                 </Col>
               </Row>
               <Row>
-                <Col>
-                  {obj.date}
-                </Col>
+                <Col>{obj.date}</Col>
               </Row>
             </Col>
             <Col>
@@ -43,13 +43,15 @@ export default class Experience extends React.Component {
             </Col>
           </Row>
         </Col>
-      </Row>)
+      </Row>
+    );
   }
 
   render() {
     return (
       <div className="experience">
         {Constants.ExperienceObject.map(x => this.renderExperienceProf(x))}
-      </div>);
+      </div>
+    );
   }
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import ProfileImage from './ProfileImage';
-import { Container, Row, Col } from 'reactstrap';
-import ProfileDetails from './ProfileDetails';
-import {Name} from '../Constants'
+import ProfileImage from "./ProfileImage";
+import { Container, Row, Col } from "reactstrap";
+import ProfileDetails from "./ProfileDetails";
+import { Name } from "../Constants";
 class Profile extends React.Component {
   render() {
     return (
@@ -13,16 +13,17 @@ class Profile extends React.Component {
           </Col>
         </Row>
         <Row>
-        <Col>
-        <h1 className="text-black name"> {Name} </h1>
-        </Col>
+          <Col>
+            <h1 className="name"> {Name} </h1>
+          </Col>
         </Row>
         <Row>
-        <Col>
-        <ProfileDetails />
-        </Col>
+          <Col>
+            <ProfileDetails />
+          </Col>
         </Row>
-      </div>);
+      </div>
+    );
   }
 }
 
