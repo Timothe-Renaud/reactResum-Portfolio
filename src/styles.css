@@ -8,7 +8,7 @@
 
 html,
 body {
-  background: url("https://static.vecteezy.com/system/resources/previews/000/140/071/non_2x/dark-blue-background-vector-vector.jpg");
+  background: url("https://static.vecteezy.com/system/resources/previews/000/106/171/non_2x/free-chinese-clouds-vector-illustration.jpg");
 }
 .container-fluid {
   font-family: "Varela Round", sans-serif;
@@ -20,13 +20,13 @@ body {
 }
 
 .name {
-  color: #ffffff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  color: #af333e;
+  /*
   text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
     #000000 1px -1px;
-}
-
-.Title {
-  color: #df8682;
+    */
 }
 
 .customTabPane {
@@ -41,19 +41,19 @@ body {
 
 .nav-link.active {
   background: #043b59 !important;
-  color: white !important;
+  color: #868a83 !important;
   border-color: #043b59 !important;
   border-radius: 0 !important;
 }
 
 .jumbotron {
   background: #043b59 !important;
-  border-radius: 5 !important;
+  border-radius: 0 !important;
   margin-bottom: 0 !important;
 }
 
 #root {
-  background: url("https://static.vecteezy.com/system/resources/previews/000/140/071/non_2x/dark-blue-background-vector-vector.jpg");
+  background: url("https://static.vecteezy.com/system/resources/previews/000/106/171/non_2x/free-chinese-clouds-vector-illustration.jpg");
 }
 
 .profileImage {

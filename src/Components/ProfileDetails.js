@@ -7,22 +7,28 @@ export default class ProfileDetails extends React.Component {
       <Table borderless>
         <tbody>
           <tr>
-            <td className="name">
-              <u>Profession</u>
+            <td className="lead name">
+              <u className="lead name">Profession</u>
             </td>
-            <td className="">{Constants.TitrePro}</td>
+            <td className="text-dark font-italic font-weight-bold">
+              {Constants.TitrePro}
+            </td>
           </tr>
           <tr>
             <td className="name lead">
-              <u>Mail</u>
+              <u className="lead name">Mail</u>
             </td>
-            <td className="">{Constants.EmailAddress}</td>
+            <td className="text-dark font-italic font-weight-bold">
+              {Constants.EmailAddress}
+            </td>
           </tr>
           <tr>
             <td className="name lead">
-              <u>Localisation</u>
+              <u className="lead name">Localisation</u>
             </td>
-            <td className="">{Constants.Home}</td>
+            <td className="text-dark font-italic font-weight-bold">
+              {Constants.Home}
+            </td>
           </tr>
         </tbody>
       </Table>

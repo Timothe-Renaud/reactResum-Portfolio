@@ -59,7 +59,17 @@ export const Databases = ["MongoDB", "MySQL", "FireBase", "SqlServeur"];
 /* ORM */
 export const Caches = ["Doctrine", "Entity"];
 
-export const Tools = ["Git", "GitLab", "GitHub", "NPM", "Composer", "Flutter"];
+export const Tools = [
+  "Git",
+  "GitLab",
+  "GitHub",
+  "NPM",
+  "Composer",
+  "Flutter",
+  "Yarn",
+  "FireFox Dev",
+  "CMDER"
+];
 
 export const IDE = [
   "VS - Code",
