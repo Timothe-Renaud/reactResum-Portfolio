@@ -40,14 +40,14 @@ body {
 }
 
 .nav-link.active {
-  background: #043b59 !important;
+  background: #494949 !important;
   color: #868a83 !important;
-  border-color: #043b59 !important;
-  border-radius: 0 !important;
+  border-color: #494949 !important;
+  border-radius: 10 !important;
 }
 
 .jumbotron {
-  background: #043b59 !important;
+  background: #494949 !important;
   border-radius: 0 !important;
   margin-bottom: 0 !important;
 }

@@ -1,36 +1,39 @@
 export const ProgrammingSkills = [
-  "C",
   ".net",
-  "C++",
   "C#",
-  "Android",
   "JavaScript",
   "PHP",
-  "Ajax",
-  "TypeScript",
   "React.js",
   "Angular.js",
   "node.js",
   "Python",
-  "Dart",
-  "Twig",
   "PowerShell"
 ];
 
 export const SoftSkills = [
   "Permits B",
-  "Production de Documentations",
-  "Méthodes Agiles",
-  "Certifié ANSSI",
-  "Communication",
-  "Curieux",
-  "TOEIC - B2",
-  "Responsable SSI",
-  "Facteur de bonne humeur",
-  "Aventurier"
+  " Audio production et MAO",
+  " Production video",
+  " Production de Documentations",
+  " Méthodes Agiles",
+  " Certifié ANSSI",
+  " Communication",
+  " Curieux",
+  " TOEIC - B2",
+  " Responsable SSI",
+  " Facteur de bonne humeur",
+  " Aventurier"
 ];
 
-export const MarkUpSkills = [];
+export const Citation = [
+  " Actuellement administrateur Système pour la DGA dans le 94, " +
+    "et ayant validé un BTS SIO - SLAM à Toulon (83), j'ai toujours été intéressé par l'informatique, le Web et la programmation. " +
+    "Ce portfolio existe dans ce but de représenter mon cursus scolaire ainsi que mes projets réaliser au cours de la formation"
+];
+
+export const Citation2 = [
+  " Vous y trouverez de plus ample information à mon sujet"
+];
 
 export const Frameworks = [
   {
@@ -102,7 +105,7 @@ export const Name = "Langlois - Teston Timothé - Renaud";
 export const TitrePro =
   "Technicien au Centre d'Analyse Téchnico-Opérationnel de défence ( CATOD )";
 export const EmailAddress = "timothe.langlois.teston@gmail.com";
-export const Home = "IDF, Arcueil (94), Val-de-MArne";
+export const Home = "IDF, Arcueil (94), Val-de-Marne";
 
 //Experience pro
 export const ExperienceObject = [
@@ -142,17 +145,21 @@ export const ExperienceObject = [
 
 export const EducationObject = [
   {
-    date: "SEP 2017 - JUNE 2019",
+    date: "Septembre 2017 - Juin 2019",
     role:
       "Brevet de Technicien Superieur option Services Informatique aux Organisations (SIO)",
     college: "Lycée Bonapart, Toulon (83)",
-    desc: `Cursus de technicien superieur validée avec l'option Solution Logiciel et Aplication Metier.`
+    desc: `Cursus de technicien superieur validée avec l'option Solution Logiciel et Aplication Metier.`,
+    Link: "https://bts-sio.lyc-bonaparte.fr",
+    descriptionBtn: "mon BTS"
   },
   {
-    date: "Sept 2014 - Juin 2017",
+    date: "Septembre 2014 - Juin 2017",
     role: "Bac Pro Systèmes électroniques numériques",
     college: "Lycée George Cisson, Toulon (83)",
-    desc: `Préparation au metier de technicien en Systèmes électroniques numériques option Electronique Industriel Embarquées mention Bien.`
+    desc: `Préparation au metier de technicien en Systèmes électroniques numériques option Electronique Industriel Embarquées mention Bien.`,
+    Link: "http://www.lycee-cisson.fr/index.php?id_menu=126",
+    descriptionBtn: "mon Bac Pro"
   }
 ];
 

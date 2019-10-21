@@ -21,6 +21,9 @@ export default class Education extends React.Component {
             <Col>{obj.date}</Col>
             <Col>
               <h5>{obj.desc}</h5>
+              <a href={obj.Link} className="btn btn-info">
+                {obj.descriptionBtn}
+              </a>
             </Col>
           </Row>
         </Col>

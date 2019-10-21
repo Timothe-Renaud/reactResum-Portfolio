@@ -10,7 +10,7 @@ export default class ProfileDetails extends React.Component {
             <td className="lead name">
               <u className="lead name">Profession</u>
             </td>
-            <td className="text-dark font-italic font-weight-bold">
+            <td className="text-danger font-italic font-weight-bold">
               {Constants.TitrePro}
             </td>
           </tr>
@@ -18,7 +18,7 @@ export default class ProfileDetails extends React.Component {
             <td className="name lead">
               <u className="lead name">Mail</u>
             </td>
-            <td className="text-dark font-italic font-weight-bold">
+            <td className="text-danger font-italic font-weight-bold">
               {Constants.EmailAddress}
             </td>
           </tr>
@@ -26,7 +26,7 @@ export default class ProfileDetails extends React.Component {
             <td className="name lead">
               <u className="lead name">Localisation</u>
             </td>
-            <td className="text-dark font-italic font-weight-bold">
+            <td className="text-danger font-italic font-weight-bold">
               {Constants.Home}
             </td>
           </tr>

@@ -35,12 +35,12 @@ export default class Skills extends React.Component {
     );
   }
 
- /* renderProgrammingSkills() {
+  /* renderProgrammingSkills() {
     return this.renderProgressOnSkills(Constants.ProgrammingSkills);
   }
 */
   renderMarkUpSkills() {
-    return this.renderProgressOnSkills(Constants.MarkUpSkills);
+    return this.renderProgressOnSkills(Constants.Citation);
   }
 
   render() {
@@ -50,10 +50,17 @@ export default class Skills extends React.Component {
           <Col>
             <Row>
               <Col>
+                <h2 className="text-center display-4"> Présentation </h2>
+              </Col>
+              <p className="text-center">
+                {this.renderGeneric(Constants.Citation)}
+                <br />
+                {this.renderGeneric(Constants.Citation2)}
+              </p>
+              <Col>
                 <h2 className="display-4"> Languages de programmations </h2>
               </Col>
             </Row>
-            {/*this.renderProgrammingSkills()*/}
             {this.renderGeneric(Constants.ProgrammingSkills)}
           </Col>
         </Row>
