@@ -168,9 +168,10 @@ export const EducationObject = [
 export const AwardsObject = [
   {
     src:
-      "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/fkGR-COG_MAY_2017.png",
+      "https://i.imgur.com/WxG3BTo.png",
     altText: "Culture Of GoodCode"
-  },
+  }
+  /* ,
   {
     src:
       "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/OsEz-BE_07_OCT_2017.png",
@@ -210,7 +211,7 @@ export const AwardsObject = [
     src:
       "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/UQQx-Screen%20Shot%202018-07-19%20at%208.07.06%20AM.png",
     altText: `Innovate Everywhere`
-  }
+  } */
 ];
 
 export const PRObject = [
@@ -304,11 +305,6 @@ export const GithubProjects = [
     projectLink: "https://github.com/Timothe-Renaud/TPWifi",
     projectName: "Appli Wifi",
     languages: "Html, SASS, PHP vanila"
-  },
-  {
-    projectLink: "https://github.com/Timothe-Renaud/TicTacToe",
-    projectName: "Generateur de partie de TicTacTow",
-    languages: "Javascript - P5.js"
   },
   {
     projectLink: "https://github.com/Timothe-Renaud/TicTacToe",
