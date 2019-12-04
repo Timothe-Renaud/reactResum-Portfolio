@@ -40,7 +40,7 @@ export const Citation2 = [
 export const Frameworks = [
   {
     language: "Javascript",
-    frameworks: "React, Angular, Node, Vue."
+    frameworks: "React.js, Angular.js, Node.js, Elektron.js, Vue.js"
   },
   {
     language: "PHP",
@@ -302,7 +302,7 @@ export const GithubProjects = [
   ,
   {
     projectLink: "https://github.com/Timothe-Renaud/TPWifi",
-    projectName: "Apli Wifi",
+    projectName: "Appli Wifi",
     languages: "Html, SASS, PHP vanila"
   },
   {
@@ -316,7 +316,7 @@ export const GithubProjects = [
     languages: "JavaScript"
   },
   {
-    projectLink: "https://github.com/Timothe-Renaud/monportfolioReact",
+    projectLink: "https://github.com/Timothe-Renaud/reactResum-",
     projectName: "Mon portfolio",
     languages: "React.js"
   },
@@ -324,11 +324,6 @@ export const GithubProjects = [
     projectLink: "https://github.com/Timothe-Renaud/HorlogueAutonome",
     projectName: "Horloge autonome",
     languages: "Javascript - P5.js"
-  },
-  {
-    projectLink: "https://github.com/Timothe-Renaud/Nolark-php",
-    projectName: "Nolark",
-    languages: "PHP vanila"
   },
   {
     projectLink: "https://github.com/Timothe-Renaud/React-todo",
