@@ -22,11 +22,13 @@ export const SoftSkills = [
   " TOEIC - B2",
   " Responsable SSI",
   " Facteur de bonne humeur",
-  " Aventurier"
+  " Aventurier",
+  " Operateur de Sécurité numerique",
+  " "
 ];
 
 export const Citation = [
-  " Actuellement administrateur Système pour la DGA dans le 94, " +
+  " Actuellement administrateur système et réseau pour la DGA dans le 94, " +
     "et ayant validé un BTS SIO - SLAM à Toulon (83), j'ai toujours été intéressé par l'informatique, le Web et la programmation. " +
     "Ce portfolio existe dans ce but de représenter mon cursus scolaire ainsi que mes projets réaliser au cours de la formation"
 ];
@@ -103,7 +105,7 @@ export const Tech = [
 
 export const Name = "Langlois - Teston Timothé - Renaud";
 export const TitrePro =
-  "Technicien au Centre d'Analyse Téchnico-Opérationnel de défence ( CATOD )";
+  "Technicien au Centre d'Analyse Téchnico-Opérationnel de défence";
 export const EmailAddress = "timothe.langlois.teston@gmail.com";
 export const Home = "IDF, Arcueil (94), Val-de-Marne";
 
@@ -114,9 +116,7 @@ export const ExperienceObject = [
     date: "Octobre 2019 – actuellement",
     role: "TSEF 3",
     imageSrc: "http://roadef.org/_teams/dga.png",
-    desc: ` Travaillant pour la DGA et situé dans la commun d'arcueil, j'intervient sur diferent plateforme pour garantir l'utilisation des tout les acteurs de l'organisation.
-
-    `
+    desc: ` Travaillant pour la DGA et situé dans la commune d'Arcueil (94), j'intervient sur different plateforme de recherche,de simulation et de gestion pour le comptes des differentes corps armée.`
   },
   {
     company: "DIRISI, Toulon (83)",
@@ -270,39 +270,50 @@ export const AboutLinksObj = [
 
 export const GithubProjects = [
   {
-    projectLink: "https://github.com/#",
+    projectLink: "https://github.com/Timothe-Renaud/AStarz",
     projectName: "Algorithme A*",
     languages: "JavaScript - P5.js"
   },
   {
-    projectLink: "https://github.com/#",
+    projectLink: "https://github.com/Timothe-Renaud/Nolark-php",
+    projectName: "Nolark",
+    languages: "HTML - CSS - PHP - Mysql"
+  },
+  {
+    projectLink: "https://github.com/Alexandre-petitjean/GSB",
     projectName: "Galaxy Suisse Bourdin ",
-    languages: "PHP vanila"
+    languages: "PHP 7 - Model MVC - MySql"
   },
   {
-    projectLink: "https://github.com/#",
-    projectName: "C#, WPF",
-    languages: "Maison des Ligue de Lorraine"
+    projectLink: "https://github.com/bricefriha/Maison-desLigues-WPF",
+    projectName: "Maison des Ligue de Lorraine",
+    languages: "C# - WPF - MVVC"
   },
   {
-    projectLink: "https://github.com/#",
+    projectLink: "https://github.com/Timothe-Renaud/FilterBandPass",
     projectName: "Filter Pass Band",
     languages: "JavaScript - P5.js"
   },
   {
-    projectLink: "https://github.com/#",
+    projectLink: "https://github.com/Timothe-Renaud/SpaaceShooter",
+    projectName: "Space - Shooteur",
+    languages: "JavaScipt, Unity 3D"
+  }
+  ,
+  {
+    projectLink: "https://github.com/Timothe-Renaud/TPWifi",
     projectName: "Apli Wifi",
     languages: "Html, SASS, PHP vanila"
   },
   {
-    projectLink: "https://github.com/#",
-    projectName: "Generateur de TicTacTow",
+    projectLink: "https://github.com/Timothe-Renaud/TicTacToe",
+    projectName: "Generateur de partie de TicTacTow",
     languages: "Javascript - P5.js"
   },
   {
-    projectLink: "https://github.com/#",
-    projectName: "Mon Petit Editeur",
-    languages: "C#"
+    projectLink: "https://github.com/Timothe-Renaud/TicTacToe",
+    projectName: "TicTacToe",
+    languages: "JavaScript"
   },
   {
     projectLink: "https://github.com/Timothe-Renaud/monportfolioReact",
@@ -310,12 +321,12 @@ export const GithubProjects = [
     languages: "React.js"
   },
   {
-    projectLink: "https://github.com/#",
+    projectLink: "https://github.com/Timothe-Renaud/HorlogueAutonome",
     projectName: "Horloge autonome",
     languages: "Javascript - P5.js"
   },
   {
-    projectLink: "https://github.com/#",
+    projectLink: "https://github.com/Timothe-Renaud/Nolark-php",
     projectName: "Nolark",
     languages: "PHP vanila"
   },

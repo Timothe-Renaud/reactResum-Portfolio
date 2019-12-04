@@ -6,27 +6,27 @@ export default class ProfileDetails extends React.Component {
     return (
       <Table borderless>
         <tbody>
-          <tr>
+          {/* <tr>
             <td className="lead name">
-              <u className="lead name">Profession</u>
+              <u className="lead name">Status</u>
             </td>
-            <td className="text-danger font-italic font-weight-bold">
+            <td className=" text-dark font-italic font-weight-bold">
               {Constants.TitrePro}
             </td>
-          </tr>
+          </tr> */}
           <tr>
-            <td className="name lead">
-              <u className="lead name">Mail</u>
-            </td>
-            <td className="text-danger font-italic font-weight-bold">
+            {/* <td className="name lead">
+              <u className=" lead name">Mail</u>
+            </td> */}
+            <td className="text-dark font-italic font-weight-bold">
               {Constants.EmailAddress}
             </td>
           </tr>
           <tr>
-            <td className="name lead">
-              <u className="lead name">Localisation</u>
-            </td>
-            <td className="text-danger font-italic font-weight-bold">
+            {/* <td className="name lead">
+              <u className="lead name">Loc</u>
+            </td> */}
+            <td className="text-dark font-italic font-weight-bold">
               {Constants.Home}
             </td>
           </tr>

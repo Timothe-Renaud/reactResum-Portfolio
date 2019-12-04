@@ -22,11 +22,7 @@ body {
 .name {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
-  color: #af333e;
-  /*
-  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
-    #000000 1px -1px;
-    */
+  color: black;
 }
 
 .customTabPane {
@@ -43,7 +39,7 @@ body {
   background: #494949 !important;
   color: #868a83 !important;
   border-color: #494949 !important;
-  border-radius: 10 !important;
+  border-radius: 25 !important;
 }
 
 .jumbotron {
