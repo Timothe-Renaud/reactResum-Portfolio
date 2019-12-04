@@ -4,6 +4,7 @@ export const ProgrammingSkills = [
   "JavaScript",
   "PHP",
   "React.js",
+  "ElectronJs",
   "Angular.js",
   "node.js",
   "Python",
@@ -11,7 +12,7 @@ export const ProgrammingSkills = [
 ];
 
 export const SoftSkills = [
-  "Permits B",
+  " Permits B",
   " Audio production et MAO",
   " Production video",
   " Production de Documentations",
@@ -40,11 +41,11 @@ export const Citation2 = [
 export const Frameworks = [
   {
     language: "Javascript",
-    frameworks: "React.js, Angular.js, Node.js, Elektron.js, Vue.js"
+    frameworks: "React.js, Angular.js, Node.js, Electron.js, Vue.js"
   },
   {
     language: "PHP",
-    frameworks: "Laravel, Symfony 3 & 4, CakePHP, Doctrine."
+    frameworks: "Symfony 3 & 4, CakePHP, Doctrine."
   },
   { language: "CSS3", frameworks: "SASS, SCSS." }
 ];
@@ -175,7 +176,7 @@ export const AwardsObject = [
     src:
       "https://imgur.com/LXeIQD7.png",
     altText: "Mon CV"
-  }/* ,
+  }/*, 
   {
     src:
       "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/l2B4-BE_14_JUN_2018.png",
