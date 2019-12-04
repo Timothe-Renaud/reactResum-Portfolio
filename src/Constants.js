@@ -169,14 +169,13 @@ export const AwardsObject = [
   {
     src:
       "https://i.imgur.com/WxG3BTo.png",
-    altText: "Culture Of GoodCode"
-  }
-  /* ,
+    altText: "Attestation delivré par l'Agence nationale de la sécurité des systèmes d’information "
+  },
   {
     src:
-      "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/OsEz-BE_07_OCT_2017.png",
-    altText: "Benefit Everyone"
-  },
+      "https://imgur.com/LXeIQD7.png",
+    altText: "Mon CV"
+  }/* ,
   {
     src:
       "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/l2B4-BE_14_JUN_2018.png",
