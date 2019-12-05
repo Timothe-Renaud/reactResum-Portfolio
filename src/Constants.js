@@ -13,20 +13,20 @@ export const ProgrammingSkills = [
 
 export const SoftSkills = [
   " Integration continue",
-  " Permits B",
-  " Audio production et MAO",
-  " Production video",
+  " ",
   " Production de Documentations",
   " Méthodes Agiles",
   " Certifié ANSSI",
   " Communication",
+  " Permits B",
+  " Audio production et MAO",
+  " Production video",
   " Curieux",
-  " TOEIC - B2",
+  " TOEIC - B2 ( renouvelé en 2019 )",
+  " Operateur de Sécurité numerique",
   " Responsable SSI",
   " Facteur de bonne humeur",
-  " Aventurier",
-  " Operateur de Sécurité numerique",
-  " "
+  " Aventurier"
 ];
 
 export const Citation = [
