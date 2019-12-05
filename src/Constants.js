@@ -12,6 +12,7 @@ export const ProgrammingSkills = [
 ];
 
 export const SoftSkills = [
+  " Integration continue",
   " Permits B",
   " Audio production et MAO",
   " Production video",
