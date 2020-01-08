@@ -1,12 +1,12 @@
 # responsive-resume-template
 
-title: MonPortfolioWithReact
+@title: MonPortfolioWithReact
 
-author: Timothe - Renaud Langlois - Teston
+@author: Timothe - Renaud Langlois - Teston
 
-Copyright: me Timothe - Renaud Langlois - Teston
+@Copyright: me Timothe - Renaud Langlois - Teston
 
-date: Aout 2019
+@date: Aout 2019
 
 Created and initialized with CodeSandbox.
 Dev with visual code.
