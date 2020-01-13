@@ -283,7 +283,7 @@ export const GithubProjects = [
   },
   {
     projectLink: "https://github.com/Alexandre-petitjean/GSB",
-    projectName: "Galaxy Suisse Bourdin ",
+    projectName: "Galaxy Suisse Bourdin - scolaire ",
     languages: "PHP 7 - Model MVC - MySql"
   },
   {
@@ -298,7 +298,7 @@ export const GithubProjects = [
   },
   {
     projectLink: "https://github.com/Timothe-Renaud/SpaaceShooter",
-    projectName: "Space - Shooteur",
+    projectName: "Space - Shooteur 3D",
     languages: "JavaScipt, Unity 3D"
   }
   ,
