@@ -329,7 +329,7 @@ export const GithubProjects = [
   },
   {
     projectLink: "https://github.com/Timothe-Renaud/ressource-repo",
-    projectName: "Repository global (SSI, Dev, veuille techno)",
+    projectName: "Repository global (SSI, Dev, veille techno)",
     languages: "MarkDown"
   }
 ];
