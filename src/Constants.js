@@ -177,27 +177,27 @@ export const AwardsObject = [
     src:
       "https://imgur.com/LXeIQD7.png",
     altText: "Mon CV"
-  }/*, 
+  }, 
   {
     src:
-      "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/l2B4-BE_14_JUN_2018.png",
-    altText: "Benefit Everyone"
+      "https://i.imgur.com/YHedAq8.jpg",
+    altText: "DNB"
   },
   {
     src:
-      "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/TG9Y-BE_18_JUNE_2018.png",
-    altText: "Benefit Everyone"
+      "https://i.imgur.com/szm3Xf1.jpg",
+    altText: "BEP"
   },
   {
     src:
-      "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/J-Rr-BE_28_FEB_2018.png",
-    altText: "Benefit Everyone"
+      "https://i.imgur.com/UBhIM7k.jpg",
+    altText: "Bac professionnel"
   },
   {
     src:
-      "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/569R-BE_JAN_5_2018.png",
-    altText: "Benefit Everyone"
-  },
+      "https://i.imgur.com/IK5DTA4.jpg",
+    altText: "BTS Services informatiques aux organisations option B solutions logicielles et applications métiers "
+  }/*,
   {
     src:
       "https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/7Vtp-CE_OCT_2017.png",
