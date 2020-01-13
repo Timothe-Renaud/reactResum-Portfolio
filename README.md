@@ -1,4 +1,5 @@
 # responsive-resume-template
+link to live: https://langloisteston.netlify.com/
 
 @title: MonPortfolioWithReact
 
