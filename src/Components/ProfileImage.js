@@ -3,7 +3,7 @@ import React from 'react';
 export default class ProfileImage extends React.Component {
   render() {
     return (<img 
-    src={"https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/53150542_2230729617176071_5087333962624270336_n.jpg?_nc_cat=100&_nc_oc=AQmw2HJwkMODuJI_X7IZrsY6T4qxAHLk6ZCqGdP-vOTvPAUPr58p07riAVw6he2LNJU&_nc_ht=scontent-cdt1-1.xx&oh=f91f7745d2fe9aadb985749ff715082c&oe=5E2EFFB8"} 
+    src={"https://instagram.fcdg2-1.fna.fbcdn.net/v/t51.2885-15/e35/51794404_613747609071665_3929976282926976153_n.jpg?_nc_ht=instagram.fcdg2-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=NjsB6b-Nu-0AX-fIamR&oh=4201737e6c409374e767ad4d38c2b1f9&oe=5F6EDF41"} 
     alt="Avatar"
     className="profileImage"/>);
   }
