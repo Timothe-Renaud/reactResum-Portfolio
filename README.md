@@ -25,3 +25,7 @@ Dependencies:
   - react-dom": "16.4.2",
   - react-scripts": "3.0.1",
   - reactstrap": "8.0.0"
+
+
+# THIS PROJECT IS NOW OUTDATED
+The project will stay until the end of 2020, after this date the domain will be closed :(
