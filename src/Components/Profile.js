@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileImage from "./ProfileImage";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import ProfileDetails from "./ProfileDetails";
 import { Name } from "../Constants";
 class Profile extends React.Component {
