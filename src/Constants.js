@@ -1,5 +1,6 @@
 export const ProgrammingSkills = [
   ".net",
+  "Bash",
   "C#",
   "JavaScript",
   "PHP",
@@ -10,6 +11,7 @@ export const ProgrammingSkills = [
   "PowerShell",
   "GPO",
   "Administration de système",
+  "Administration réseaux",
   "Virtualisation",
   "Cyber-Sécuriré",
   "Système IST",
@@ -68,6 +70,14 @@ export const TestFrameworks = [
   {
     language: "Scala",
     frameworks: "Scalatest, Akka TestKit."
+  },
+  {
+    language: "JAVAScript",
+    frameworks: "Jest, MochaJS, AVA."
+  },
+  {
+    language: "Powershell",
+    frameworks: "Pester"
   }
 ];
 
@@ -110,10 +120,15 @@ export const Tech = [
   "HyperV",
   "Linux",
   "GPO",
-  "Administrations et droits",
+  "Administrations et droits sur SI spécifique",
   "Stormshield FireWall",
   "H3C & HP switchs",
-  ""
+  "Samba AD",
+  "Client VOIP",
+  "Stormshield technologies",
+  "Citrix product",
+  "VMware Horizon",
+  "WSUS Updater"
 ];
 
 export const Name = "Langlois - Teston Timothé - Renaud";
@@ -283,7 +298,7 @@ export const AboutLinksObj = [
 export const GithubProjects = [
   {
     projectLink: "https://github.com/Timothe-Renaud/AStarz",
-    projectName: "Algorithme A*",
+    projectName: "Algorithme PathFinder",
     languages: "JavaScript - P5.js"
   },
   {
