@@ -1,7 +1,6 @@
-import { Table } from 'reactstrap';
+/* import { Table } from 'reactstrap';
+import * as Constants from '../Constants'; */
 import React from "react";
-import * as Constants from '../Constants';
-
 export default class OSContrib extends React.Component {
   renderTableRows(obj) {
     return obj.map(x => {
