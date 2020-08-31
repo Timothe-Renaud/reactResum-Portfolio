@@ -4,35 +4,44 @@ export const ProgrammingSkills = [
   "JavaScript",
   "PHP",
   "React.js",
-  "ElectronJs",
   "Angular.js",
   "node.js",
   "Python",
-  "PowerShell"
+  "PowerShell",
+  "GPO",
+  "Administration de système",
+  "Virtualisation",
+  "Cyber-Sécuriré",
+  "Système IST",
+  "Hyper-V ",
+  "Active Directory Windows & Linux",
+  "Journalisation & monitoring de logs",
+  "Antivirus ",
+  "Administration de ligne Internet",
+  "MCO & MCS"
 ];
 
 export const SoftSkills = [
-  " Integration continue",
-  " ",
+  " Intégration et livraison continue",
   " Production de Documentations",
   " Méthodes Agiles",
   " Certifié ANSSI",
-  " Communication",
-  " Permits B",
+  " Communication", 
+  " TOEIC - B2 ( renouvelé en 2019 )",
+  " Operateur de Sécurité numérique",
+  " Responsable SSI",
+  " Permits B et 2 roues",
   " Audio production et MAO",
   " Production video",
-  " Curieux",
-  " TOEIC - B2 ( renouvelé en 2019 )",
-  " Operateur de Sécurité numerique",
-  " Responsable SSI",
+  " Curieux ",
   " Facteur de bonne humeur",
   " Aventurier"
 ];
 
 export const Citation = [
-  " Actuellement administrateur système et réseau pour la DGA dans le 94, " +
-    "et ayant validé un BTS SIO - SLAM à Toulon (83), j'ai toujours été intéressé par l'informatique, le Web et la programmation. " +
-    "Ce portfolio existe dans ce but de représenter mon cursus scolaire ainsi que mes projets réaliser au cours de la formation"
+  " Actuellement administrateur système et réseau pour la Direction Générale de l'Armement dans le 94, " +
+    "et ayant validé un BTS SIO - SLAM à Toulon (83), j'ai toujours été intéressé par l'informatique, la cybersecurité, le Web et la programmation. " +
+    "Ce portfolio existe dans ce but de représenter mon cursus scolaire ainsi que mes projets et mes compétences"
 ];
 
 export const Citation2 = [
@@ -72,17 +81,16 @@ export const Tools = [
   "GitHub",
   "NPM",
   "Composer",
-  "Flutter",
   "Yarn",
   "FireFox Dev",
-  "CMDER"
+  "CMDER",
+  "Putty"
 ];
 
 export const IDE = [
   "VS - Code",
   "VS - Studio",
   "Android studio",
-  "Sublime Text",
   "Atom",
   "Code Blocks",
   "Eclipse",
@@ -102,12 +110,14 @@ export const Tech = [
   "HyperV",
   "Linux",
   "GPO",
-  "Administrations et droits"
+  "Administrations et droits",
+  "Stormshield FireWall",
+  "H3C & HP switchs",
+  ""
 ];
 
 export const Name = "Langlois - Teston Timothé - Renaud";
-export const TitrePro =
-  "Technicien au Centre d'Analyse Téchnico-Opérationnel de défence";
+export const TitrePro = "Technicien au Centre d'Analyse Téchnico-Opérationnel de défence";
 export const EmailAddress = "timothe.langlois.teston@gmail.com";
 export const Home = "IDF, Arcueil (94), Val-de-Marne";
 
@@ -118,7 +128,7 @@ export const ExperienceObject = [
     date: "Octobre 2019 – actuellement",
     role: "TSEF 3",
     imageSrc: "http://roadef.org/_teams/dga.png",
-    desc: ` Travaillant pour la DGA et situé dans la commune d'Arcueil (94), j'intervient sur different plateforme de recherche,de simulation et de gestion pour le comptes des differentes corps armée.`
+    desc: ` Travaillant pour la Direction Général de l'Armement dans la commune d'Arcueil (94), j'intervient sur different plateforme de recherche, de simulation et de gestion pour le comptes des differentes corps armée.`
   },
   {
     company: "DIRISI, Toulon (83)",
@@ -244,7 +254,7 @@ export const PRObject = [
 
 export const AboutLinksObj = [
   {
-    name: "twitter",
+    name: "Twitter",
     profileLink: "@Timothe_Renaud",
     icon:
       "https://cdn.pixabay.com/photo/2017/08/23/11/30/twitter-2672572_960_720.jpg"

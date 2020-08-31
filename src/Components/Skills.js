@@ -58,7 +58,7 @@ export default class Skills extends React.Component {
                 {this.renderGeneric(Constants.Citation2)}
               </p>
               <Col>
-                <h2 className="display-4"> Languages de programmations </h2>
+                <h2 className="display-4"> Mes Compétences </h2>
               </Col>
             </Row>
             {this.renderGeneric(Constants.ProgrammingSkills)}
